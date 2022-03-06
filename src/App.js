@@ -11,12 +11,9 @@ function App() {
         <li>Contact</li>
         <div className="container">
           <h1>Hello {name}</h1>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
-          excepturi dolores unde consectetur quisquam eius dolorem voluptatum
-          modi eveniet voluptas nihil sapiente voluptate rerum quaerat, quia
-          culpa accusamus doloremque similique nostrum! Praesentium, ullam
-          accusamus nemo hic tempore consectetur exercitationem velit animi enim
-          nisi aliquid natus.
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nihil expedita ut doloribus aut reiciendis iusto laudantium rem! Fugiat nihil quaerat nemo sequi quia nobis. Corporis sequi culpa enim deserunt.
+            hi
+          </p>
         </div>
       </nav>
     </>
