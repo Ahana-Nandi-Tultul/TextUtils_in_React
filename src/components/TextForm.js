@@ -72,7 +72,7 @@ export default function TextForm(props) {
       <div className="container my-4" style={{color: props.mode==='dark'?'white':'black'}}>
         <h2>Text Counter</h2>
         <p>
-          {text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters
+          {text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters
         </p>
         <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minitues To read the text</p>
         <h2>Preview</h2>
